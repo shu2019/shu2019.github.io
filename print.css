@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Proza+Libre');
+
+header {
+  font-family: serif;
+  font-size: 10px;
+  text-align: center;
+  color: #0F257D;
+}
+
+h1 {
+  padding-left: 20px;
+}
+
+.nav {
+  display: none;
+}
+
+#contact {
+  margin: 0;
+  list-style-type: none;
+  display: inline-block;
+}
+
+#contact li {
+  display: inline-block;
+  border: 3px solid black;
+  color: black;
+}
+
+#contact a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+body {
+  font-family: serif;
+  font-size: 9px;
+}
+
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+  min-width: 500px;
+}
+
+h2 {
+  border-bottom: 1px solid #222;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+#honors {
+  float: left;
+  width: 40%;
+}
+
+#honors li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+#skills {
+  float: right;
+  width: 40%;
+  border-left: 1px solid #222;
+  padding: 0 50px;
+}
+
+#skills1 {
+  text-align: center;
+}
+
+#honors1 {
+  text-align: center;
+}
