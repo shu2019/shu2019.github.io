@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|PT+Sans");
+
+header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #4C94DC;
+   /*61D6E3*/
+  position: relative;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
+  background-color: #E0FDFE;
+  position: relative;
+  margin: auto;
+  background-image: url('images/mirrored-squares.png');
+  /* Image from transparenttextures.com, "Mirrored Squares" made by Atle Mo */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  color: #5A6EF3;
+}
+
+nav a:visited {
+  color: #011071;
+}
+
+nav a:hover {
+  color: #6D99FE;
+}
+
+nav a:active {
+  color: #6DACFE;
+}
+
+main {
+  max-width: 800px;
+  min-width: 600px;
+  padding: 10px 70px 30px 70px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  margin-bottom: 30px;
+  background-color: rgba(239, 252, 254, 0.7);
+}
+
+#aboutme {
+  overflow: auto;
+  padding: 10px;
+}
+
+#aboutme h2 {
+  margin-top: 0;
+}
+
+#aboutme img {
+  float: left;
+  margin-right: 30px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style-type: none;
+  /*display: inline-block;*/
+  width: 600px;
+  padding-left: 0;
+}
+
+#contact li {
+  display: inline-block;
+  font-size: 24px;
+  color: #011071;
+  background-color: #61D6E3;
+}
+
+#contact a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #0B5393;
+}
+
+#contact a:hover {
+  color: #EDF5FA;
+  background-color: #003A61;
+}
+
+#graphicdesign h3 {
+  margin-bottom: 10px;
+}
+
+#filters {
+  list-style-type: none;
+  display: inline-block;
+  /*position: relative;
+  margin: auto;*/
+}
+
+#filters ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+#filters li {
+  display: inline-block;
+  margin: 0 20px 0 0;
+}
+
+#container1 {
+  float: left;
+  font-size: 12px;
+  max-width: 35%;
+}
+
+#container2 {
+  float: right;
+  font-size: 12px;
+  max-width: 55%;
+}
+
+#container2 li a {
+  text-decoration: none;
+  color: #61D6E3;
+}
+
+#container2 li a:visited {
+  color: #011071;
+}
+
+#container2 li a:hover {
+  color: #6D99FE;
+}
+
+#writings ul {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  list-style-type: none;
+  display: block;
+  padding-left: 0;
+}
+
+#writings li {
+  display: block;
+  font-size: 24px;
+  color: #011071;
+  background-color: #61D6E3;
+}
+
+#writings a {
+  display: block;
+  margin: 50px 0px;
+  text-decoration: none;
+  padding: 50px;
+  color: #0B5393;
+}
+
+#writings a:hover {
+  color: #EDF5FA;
+  background-color: #003A61;
+}
+
+#resumecontact {
+  display: none;
+}

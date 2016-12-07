@@ -1,2 +1,2 @@
-# shu2019.github.io
-My web site
+# samanthaulin.github.io
+my final project
