@@ -16,17 +16,27 @@ nav {
 }
 
 #resumecontact {
-  margin: 0;
   list-style-type: none;
   display: inline-block;
 }
 
-#resumecontact li {
+#resumecontact ul {
+  list-style-type: none;
   display: inline-block;
-  border: 3px solid black;
-  color: black;
+  margin-left: 160px;
+  margin-right: 40px;
 }
 
+#resumecontact li {
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 body {
   font-family: serif;
@@ -43,11 +53,13 @@ li a {
 }
 
 #honors {
+  margin-top: 10px;
   float: left;
   width: 40%;
 }
 
 #skills {
+  margin-top: 10px;
   float: right;
   width: 40%;
   border-left: 1px solid #222;
@@ -72,4 +84,8 @@ li a {
 
 #education {
   margin-top: 10px;
+}
+
+#experience {
+  margin-top: 220px;
 }
