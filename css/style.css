@@ -12,7 +12,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   background-color: #E0FDFE;
-  background-image: url('images/mirrored-squares.png');
+  background-image: url('../images/mirrored-squares.png');
   /* Image from transparenttextures.com, "Mirrored Squares" made by Atle Mo */
   position: relative;
   margin: auto;
