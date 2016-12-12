@@ -5,7 +5,6 @@ header {
   font-size: 30px;
   text-align: center;
   color: #4C94DC;
-   /*61D6E3*/
   position: relative;
 }
 
@@ -13,10 +12,10 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
   background-color: #E0FDFE;
-  position: relative;
-  margin: auto;
   background-image: url('images/mirrored-squares.png');
   /* Image from transparenttextures.com, "Mirrored Squares" made by Atle Mo */
+  position: relative;
+  margin: auto;
 }
 
 h2 {
@@ -86,7 +85,6 @@ main {
   margin: 0 auto;
   text-align: center;
   list-style-type: none;
-  /*display: inline-block;*/
   width: 600px;
   padding-left: 0;
 }
@@ -117,8 +115,6 @@ main {
 #filters {
   list-style-type: none;
   display: inline-block;
-  /*position: relative;
-  margin: auto;*/
 }
 
 #filters ul {
